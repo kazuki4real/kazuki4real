@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![kazuki4real's github stats](https://github-readme-stats.vercel.app/api?username=kazuki4real&count_private=true&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kazuki4real&theme=radical)
 <!--
 **kazuki4real/kazuki4real** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
