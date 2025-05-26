@@ -1,0 +1,28 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Apply this rule when user request to call MCP
+globs:
+alwaysApply: true
+---
+
+# MCP 連携
+
+## Github 連携と実行
+Agent の呼び出しで Github と連携する場合は下記のエイリアスを参照し MCP で接続すること。(e.g. 「設計した内容を infra レポジトリの issue として作成して。」)
+MCP に存在しない場合はユーザーに伝えた上 github API で連携すること
+また、ユーザーエイリアスを使用する場合は「ユーザーエイリアスに基づき実行します」と宣言すること
+
+### リポジトリエイリアス
+`{エイリアス}`:{組織}/{レポジトリ}
+
+- `infra`: kikagaku/kikagaku-infrastructure
+- `learning`: kikagaku/kikagaku-learning
+- `business`: kikagaku/kikagaku-for-business
+- `admin`: kikagaku/kikagaku-admin
+- `career`: kikagaku/kikagaku-career
+- `backend`: kikagaku/kikagaku-backend
+- `gcfunctions`: kikagaku/kikagaku-gcfunctions
