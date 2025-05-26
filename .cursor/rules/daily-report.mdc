@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+業務日報を作成するための Cursor Rule です。
+## command
+/report-create: １日のはじめに日報を作成するエイリアスです。前日の日報を report/yyyy-mm/ 以下から探して「明日の予定」から今日のタスクを作成します。
+/report-tmr: 本日の日報ファイルを探して「明日の予定」を作成します。着手中の未完了 issue や次の issue タスクなどを列挙します。
